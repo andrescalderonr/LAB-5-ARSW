@@ -117,6 +117,14 @@ Resultado:
 	}
 	```	
 
+Metodo:
+
+![](img/PostMethod.png)
+ 
+Resultado:
+
+![](img/Postresult.png)
+
 
 2.  Para probar que el recurso ‘planos’ acepta e interpreta
     correctamente las peticiones POST, use el comando curl de Unix. Este
@@ -134,8 +142,17 @@ Resultado:
 
 	Nota: puede basarse en el formato jSON mostrado en el navegador al consultar una orden con el método GET.
 
+Comando curl:
+
+![](img/CurlCommand.png)
+
+Resultado Curl:
+
+![](img/CurlResult.png)
 
 3. Teniendo en cuenta el autor y numbre del plano registrado, verifique que el mismo se pueda obtener mediante una petición GET al recurso '/blueprints/{author}/{bpname}' correspondiente.
+
+![](img/CurlGET.png)
 
 4. Agregue soporte al verbo PUT para los recursos de la forma '/blueprints/{author}/{bpname}', de manera que sea posible actualizar un plano determinado.
 
