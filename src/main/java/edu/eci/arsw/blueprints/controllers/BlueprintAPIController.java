@@ -86,7 +86,7 @@ public class BlueprintAPIController {
         }
     }
 
-    @PutMapping("/blueprints/{author}/{bpname}")
+    @PutMapping("/{author}/{bpname}")
     public ResponseEntity<?> editBlueprint(
             @PathVariable("author") String author,
             @PathVariable("bpname") String bpname,

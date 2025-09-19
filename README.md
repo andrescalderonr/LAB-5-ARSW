@@ -156,6 +156,7 @@ Resultado Curl:
 
 4. Agregue soporte al verbo PUT para los recursos de la forma '/blueprints/{author}/{bpname}', de manera que sea posible actualizar un plano determinado.
 
+![](img/put.png)
 
 ### Parte III
 
