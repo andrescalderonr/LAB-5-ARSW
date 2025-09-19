@@ -75,4 +75,9 @@ public class BlueprintsServices {
 
         return filtered;
     }
+
+    public void updateBlueprint(String author, String name, Blueprint bp){
+        bpp.update(author,name,bp);
+    }
+
 }

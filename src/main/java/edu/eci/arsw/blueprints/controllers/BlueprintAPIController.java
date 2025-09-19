@@ -86,6 +86,28 @@ public class BlueprintAPIController {
         }
     }
 
+    @PutMapping("/blueprints/{author}/{bpname}")
+    public ResponseEntity<?> editBlueprint(
+            @PathVariable("author") String author,
+            @PathVariable("bpname") String bpname,
+            @RequestBody Blueprint bp) {
+        try {
+            // Verificamos que el blueprint coincida con el author y el nombre de la URL
+            if (!bp.getAuthor().equals(author) || !bp.getName().equals(bpname)) {
+                return new ResponseEntity<>("Los datos del cuerpo no coinciden con la URL", HttpStatus.BAD_REQUEST);
+            }
+
+            blueprintServices.updateBlueprint(author, bpname, bp);
+            return new ResponseEntity<>(bp, HttpStatus.OK);
+
+        } catch (IllegalArgumentException e) {
+            return new ResponseEntity<>("Datos inválidos para actualizar el plano", HttpStatus.BAD_REQUEST);
+
+        } catch (Exception e) {
+            Logger.getLogger(BlueprintAPIController.class.getName()).log(Level.SEVERE, null, e);
+            return new ResponseEntity<>("Error interno al actualizar el plano", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 
 }
 

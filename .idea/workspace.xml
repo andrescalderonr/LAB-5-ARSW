@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51ce6f-6f26-436f-a6e0-ba5927a23218" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/controllers/BlueprintAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/controllers/BlueprintAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/appMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/appMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/config/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/controllers/BlueprintAPIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/controllers/BlueprintAPIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/controllers/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/controllers/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BluePrintFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BluePrintFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintPersistenceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintPersistenceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/RedundancyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/RedundancyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/SubsamplingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/SubsamplingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprintsapi/BlueprintsAPIApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprintsapi/BlueprintsAPIApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +94,6 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
