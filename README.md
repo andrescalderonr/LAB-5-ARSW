@@ -2,7 +2,10 @@
 
 ### Arquitecturas de Software
 
+## Integrantes
 
+Andres Felipe Calderon
+Jose David Castillo
 
 #### API REST para la gestión de planos.
 
